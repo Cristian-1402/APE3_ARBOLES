@@ -509,18 +509,19 @@ int main() {
     return 0;
 }
 ```
-**Conceptos Clave**
-Recursividad: Técnica fundamental en la mayoría de operaciones con árboles.
+## **Conceptos Clave** ##
 
-Caso Base: Condición de salida de la recursión (generalmente cuando el nodo es nulo).
+**Recursividad:** Técnica fundamental en la mayoría de operaciones con árboles.
 
-Caso Recursivo: Cómo se reduce el problema hacia el caso base.
+**Caso Base:** Condición de salida de la recursión (generalmente cuando el nodo es nulo).
 
-Recorridos: Diferentes formas de visitar los nodos (In-Order, Pre-Order, Post-Order).
+**Caso Recursivo:** Cómo se reduce el problema hacia el caso base.
 
-Árboles Binarios de Búsqueda: Estructura ordenada que permite búsquedas eficientes.
+**Recorridos:** Diferentes formas de visitar los nodos (In-Order, Pre-Order, Post-Order).
 
-**Cómo Compilar y Ejecutar**
+**Árboles Binarios** de Búsqueda: Estructura ordenada que permite búsquedas eficientes.
+
+## **Cómo Compilar y Ejecutar** ##
 ```
 Java:
 cd APE_Arboles/java
