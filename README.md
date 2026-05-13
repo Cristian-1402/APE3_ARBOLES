@@ -87,7 +87,7 @@ public class Ejercicio1_Basico {
 }
 ```
 **C++ - Ejercicio1_Basico.cpp:**
-```
+```c++
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -133,11 +133,11 @@ int main() {
     return 0;
 }
 ```
-**Ejercicio 2: Inserción en Árbol Binario de Búsqueda (BST)**
+### **Ejercicio 2: Inserción en Árbol Binario de Búsqueda (BST)**
 Un BST es un árbol binario donde cada nodo tiene como máximo 2 hijos, y cumple: valores menores van a la izquierda, mayores o iguales a la derecha.
 
 **Java - Ejercicio2_Binario.java:**
-```
+```java
 class Nodo {
     int valor;
     Nodo izquierdo, derecho;
@@ -185,8 +185,8 @@ public class Ejercicio2_Binario {
     }
 }
 ```
-**C++ - Ejercicio2_Binario.cpp:**
-```
+### **C++ - Ejercicio2_Binario.cpp:**
+```c++
 #include <iostream>
 using namespace std;
 
@@ -241,8 +241,8 @@ int main() {
 **Ejercicio 3: Cálculo de Altura/Profundidad Máxima**
 La altura de un árbol es la distancia máxima desde la raíz hasta cualquier hoja.
 
-**Java - Ejercicio3_Binario2.java:**
-```
+### **Java - Ejercicio3_Binario2.java:**
+```java
 public class Ejercicio3_Binario2 {
     public static int calcularAltura(Nodo raiz) {
         // Caso base: árbol vacío tiene altura 0
@@ -274,7 +274,7 @@ public class Ejercicio3_Binario2 {
 }
 ```
 **C++ - Ejercicio3_Binario.cpp:**
-```
+```c++
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -314,8 +314,8 @@ int main() {
 **Ejercicio 4: Recorrido In-Order**
 El recorrido In-Order visita los nodos en el orden: izquierda -> raíz -> derecha. En un BST, esto produce los valores en orden ascendente.
 
-**Java - RecorridoInOrder.java:**
-```
+### **Java - RecorridoInOrder.java:**
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -360,8 +360,8 @@ public class RecorridoInOrder {
     }
 }
 ```
-**C++ - Ejercicio4_Recorridos.cpp:**
-```
+### **C++ - Ejercicio4_Recorridos.cpp:**
+```c++
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -418,8 +418,8 @@ int main() {
 **Ejercicio 5: Transformación - Árbol Espejo (Invertido)**
 Invierte la estructura del árbol intercambiando los punteros izquierdo y derecho de cada nodo.
 
-**Java - Ejercicio5_Transformacion.java:**
-```
+### **Java - Ejercicio5_Transformacion.java:**
+```java
 public class Ejercicio5_Transformacion {
     public static Nodo invertir(Nodo raiz) {
         // Caso base: árbol vacío o llegamos a una hoja
@@ -458,8 +458,8 @@ public class Ejercicio5_Transformacion {
     }
 }
 ```
-**C++ - Ejercicio5_Transformacion.cpp:**
-```
+### **C++ - Ejercicio5_Transformacion.cpp:**
+```c++
 #include <iostream>
 using namespace std;
 
