@@ -85,8 +85,9 @@ public class Ejercicio1_Basico {
         System.out.println("Nodos calculados: " + contarNodos(raiz));
     }
 }
-
-C++ - Ejercicio1_Basico.cpp:
+```
+**C++ - Ejercicio1_Basico.cpp:**
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -131,11 +132,12 @@ int main() {
     
     return 0;
 }
-
-Ejercicio 2: Inserción en Árbol Binario de Búsqueda (BST)
+```
+**Ejercicio 2: Inserción en Árbol Binario de Búsqueda (BST)**
 Un BST es un árbol binario donde cada nodo tiene como máximo 2 hijos, y cumple: valores menores van a la izquierda, mayores o iguales a la derecha.
 
-Java - Ejercicio2_Binario.java:
+**Java - Ejercicio2_Binario.java:**
+```
 class Nodo {
     int valor;
     Nodo izquierdo, derecho;
@@ -182,8 +184,9 @@ public class Ejercicio2_Binario {
         System.out.println("Hijo Izquierdo del 5 (Esperado 3): " + izqIzq);
     }
 }
-
-C++ - Ejercicio2_Binario.cpp:
+```
+**C++ - Ejercicio2_Binario.cpp:**
+```
 #include <iostream>
 using namespace std;
 
@@ -234,11 +237,12 @@ int main() {
 
     return 0;
 }
-
-Ejercicio 3: Cálculo de Altura/Profundidad Máxima
+```
+**Ejercicio 3: Cálculo de Altura/Profundidad Máxima**
 La altura de un árbol es la distancia máxima desde la raíz hasta cualquier hoja.
 
-Java - Ejercicio3_Binario2.java:
+**Java - Ejercicio3_Binario2.java:**
+```
 public class Ejercicio3_Binario2 {
     public static int calcularAltura(Nodo raiz) {
         // Caso base: árbol vacío tiene altura 0
@@ -268,8 +272,9 @@ public class Ejercicio3_Binario2 {
         System.out.println("Altura de árbol nulo (esperado 0): " + calcularAltura(null));
     }
 }
-
-C++ - Ejercicio3_Binario.cpp:
+```
+**C++ - Ejercicio3_Binario.cpp:**
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -305,11 +310,12 @@ int main() {
 
     return 0;
 }
-
-Ejercicio 4: Recorrido In-Order
+```
+**Ejercicio 4: Recorrido In-Order**
 El recorrido In-Order visita los nodos en el orden: izquierda -> raíz -> derecha. En un BST, esto produce los valores en orden ascendente.
 
-Java - RecorridoInOrder.java:
+**Java - RecorridoInOrder.java:**
+```
 import java.util.ArrayList;
 import java.util.List;
 
@@ -353,8 +359,9 @@ public class RecorridoInOrder {
         System.out.println("Tu resultado:       " + recorridoInOrder(raiz));
     }
 }
-
-C++ - Ejercicio4_Recorridos.cpp:
+```
+**C++ - Ejercicio4_Recorridos.cpp:**
+```
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -407,11 +414,12 @@ int main() {
 
     return 0;
 }
-
-Ejercicio 5: Transformación - Árbol Espejo (Invertido)
+```
+**Ejercicio 5: Transformación - Árbol Espejo (Invertido)**
 Invierte la estructura del árbol intercambiando los punteros izquierdo y derecho de cada nodo.
 
-Java - Ejercicio5_Transformacion.java:
+**Java - Ejercicio5_Transformacion.java:**
+```
 public class Ejercicio5_Transformacion {
     public static Nodo invertir(Nodo raiz) {
         // Caso base: árbol vacío o llegamos a una hoja
@@ -449,8 +457,10 @@ public class Ejercicio5_Transformacion {
         System.out.println("Hijo Izq: " + izq + " | Hijo Der: " + der);
     }
 }
-
-C++ - Ejercicio5_Transformacion.cpp:#include <iostream>
+```
+**C++ - Ejercicio5_Transformacion.cpp:**
+```
+#include <iostream>
 using namespace std;
 
 struct Nodo {
@@ -498,22 +508,24 @@ int main() {
 
     return 0;
 }
-
-Conceptos Clave
+```
+**Conceptos Clave**
 Recursividad: Técnica fundamental en la mayoría de operaciones con árboles.
 Caso Base: Condición de salida de la recursión (generalmente cuando el nodo es nulo).
 Caso Recursivo: Cómo se reduce el problema hacia el caso base.
 Recorridos: Diferentes formas de visitar los nodos (In-Order, Pre-Order, Post-Order).
 Árboles Binarios de Búsqueda: Estructura ordenada que permite búsquedas eficientes.
 
-Cómo Compilar y Ejecutar
-
+**Cómo Compilar y Ejecutar**
+```
 Java:
 cd APE_Arboles/java
 javac Ejercicio1_Basico.java
 java Ejercicio1_Basico
-
+```
+```
 C++:
 cd APE_Arboles/cpp
 g++ -o Ejercicio1 Ejercicio1_Basico.cpp
 ./Ejercicio1
+```
